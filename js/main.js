@@ -134,7 +134,7 @@ function getPrayersTimingOfCity(cityName) {
     city: cityName,
   };
   axios
-    .get("http://api.aladhan.com/v1/timingsByCity", {
+    .get("https://api.aladhan.com/v1/timingsByCity", {
       params: params,
     })
     .then(function (response) {
