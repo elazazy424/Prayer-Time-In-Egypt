@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Prayer Time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Roboto:wght@100;300;400;500&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <!--start city name -->
+        <div class="city-name-date">
+          <h1 id="city-name">القاهرة</h1>
+          <h6 id="city-date">الجمعة ٢٤ نوفمبر</h6>
+        </div>
+        <!--end city name -->
+        <hr />
+        <!-- start prayer time -->
+        <div class="box center">
+          <!-- start card -->
+          <div class="card">
+            <div class="header">
+              <h1>الفجر</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="fajr-time">4:30</h1>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="header">
+              <h1>الشروق</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="shrouk-time">4:30</h1>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="header">
+              <h1>الظهر</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="dohr-time">4:30</h1>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="header">
+              <h1>العصر</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="asr-time">4:30</h1>
+            </div>
+          </div>
+          <!-- end card -->
+          <!-- start card -->
+          <div class="card">
+            <div class="header">
+              <h1>المغرب</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="maghrab-time">4:30</h1>
+            </div>
+          </div>
+          <div class="card">
+            <div class="header">
+              <h1>العشاء</h1>
+            </div>
+            <div class="body center">
+              <h1 class="time" id="aisha-time">4:30</h1>
+            </div>
+          </div>
+          <!-- end card -->
+        </div>
+        <!-- end prayer time -->
+        <!-- start change city select -->
+        <div class="change-city center">
+          <select
+            class="select-city"
+            name=""
+            id="cities-select"
+            style="
+              width: 300px;
+              height: 35px;
+              font-size: 20px;
+              font-family: Tajawal;
+              background: none;
+              color: white;
+              border-radius: 20px;
+              padding: 5px;
+            "
+          ></select>
+        </div>
+        <!-- end change city select -->
+      </div>
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

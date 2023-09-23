@@ -1,0 +1,168 @@
+body {
+  direction: rtl;
+  background: linear-gradient(45deg, #240165, #05001c);
+  font-family: "Tajawal", sans-serif;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+.container {
+  height: 100vh;
+}
+.city-name-date {
+  color: white;
+  margin-right: 40px;
+}
+#city-name {
+  font-size: 86px;
+  font-weight: 400;
+}
+#city-date {
+  font-size: 40px;
+  font-weight: 200;
+}
+hr {
+  margin: 0px 50px;
+  border-color: #5200e1;
+}
+.box {
+  height: 300px;
+  margin-top: 80px;
+  justify-content: space-around !important;
+}
+.card {
+  width: 12%;
+  height: 95%;
+  background-color: white;
+  font-size: 20px;
+  box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+}
+.header {
+  background: linear-gradient(45deg, #5709ee, #7a37bf);
+  color: white;
+}
+.header h1 {
+  font-weight: 400;
+  padding: 5px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  height: 80%;
+}
+.time {
+  font-size: 70px;
+}
+.change-city {
+  margin-top: 40px;
+}
+.select-city option {
+  background-color: #05001c;
+  color: white;
+}
+/* Add this to the end of your CSS file */
+
+@media (max-width: 768px) {
+  #city-name {
+    font-size: 60px;
+  }
+
+  #city-date {
+    font-size: 20px;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  .box {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .time {
+    font-size: 40px;
+  }
+}
+/* Add this to the end of your CSS file */
+
+@media (max-width: 1200px) {
+  #city-name {
+    font-size: 100px;
+  }
+
+  #city-date {
+    font-size: 30px;
+  }
+
+  .box {
+    margin-top: 40px;
+  }
+
+  .card {
+    width: 20%;
+    margin-right: 10px;
+  }
+
+  .time {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #city-name {
+    font-size: 60px;
+  }
+  .header {
+    height: 40px;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  #city-date {
+    font-size: 20px;
+  }
+
+  .box {
+    position: relative;
+    top: 80px;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-top: 20px !important;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 10px;
+    position: relative;
+    top: 66px;
+  }
+  .time {
+    font-size: 30px;
+    position: relative;
+    bottom: 11px;
+  }
+  .change-city {
+    top: 287px;
+    position: relative;
+  }
+  .select-city option {
+    font-size: 15px;
+  }
+}
