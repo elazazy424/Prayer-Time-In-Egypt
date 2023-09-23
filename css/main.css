@@ -2,7 +2,7 @@ body {
   direction: rtl;
   background: linear-gradient(45deg, #240165, #05001c);
   font-family: "Tajawal", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 h1,
